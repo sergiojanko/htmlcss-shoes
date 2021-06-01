@@ -10,6 +10,10 @@ body{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+
+
+/* Navbar */
+
 nav{
     position: fixed;
     right: 15px;
@@ -34,10 +38,55 @@ nav li a{
     text-decoration: none;
 }
 
+
+
+
+/* Main */
+
+
+
 section{
     height: 100vh; 
+    position: relative;
 }
 
 #first-product{
     background-color: red;
+}
+
+#second-product{
+    background-color: green;
+}
+
+#third-product{
+    background-color: yellow;
+}
+
+section .content{
+    width: 70%;
+    height: 80%;
+    margin: 0 auto; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section .content img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    object-fit: contain;
+    text-align: center;
+}
+
+section .content h2{
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+}
+section:last-child .content h2{
+
+    color: forestgreen;
 }
