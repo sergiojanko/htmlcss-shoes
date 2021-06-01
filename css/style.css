@@ -40,7 +40,12 @@ nav li a{
     background-color: #fff;
 }
 
-
+nav li:hover{
+    transform: scale(1.15);
+}
+nav li:active{
+    transform: scale(1);
+}
 
 
 /* Main */
