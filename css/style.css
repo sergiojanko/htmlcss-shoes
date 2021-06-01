@@ -4,3 +4,40 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+
+body{
+    margin: 0 auto;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+nav{
+    position: fixed;
+    right: 15px;
+    top: 20px;
+}
+
+nav ul{
+    right: 0;
+}
+
+nav li{
+    background-color: #fff;
+    display: inline-block;
+    line-height: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 1;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+section{
+    height: 100vh; 
+}
+
+#first-product{
+    background-color: red;
+}
